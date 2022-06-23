@@ -12,8 +12,18 @@
 #+exclude_tags: noexport
 #+creator: Emacs 29.0.50 (Org mode 9.5.4)
 #+cite_export:
+* TODO build ext.mrg
+create and host mongo database for our dataset
+build an extension to support querying from it if necessary
+
+(matproj might already work with pymatgen-db generated databases)
+
+consider adding the analysis tools/designer/etc to the analysis [[Extension Name Spaces][name space]]
 * TODO Extend io.pwscf
 start building fully featured interface to qe
+** TODO push update to the 2022.2.10 state
+for nanohub's ease of installation?  ask Steven if it would be
+preferable to just update pymatgen completely
 * TODO install full pmg
 optional dependencies
 - [ ] zeo
@@ -26,3 +36,12 @@ optional dependencies
 - [ ] phonopy
 * TODO [#5] learn everything (ongoing)
 test all features, fix if needed
+* Extension Name Spaces
+- pymatgen.analysis.*: A new type of analysis, such as those for a
+  specific application. E.g. superconductors, solar, etc. or an entire
+  category of analysis, e.g., machine learning, diffusion, etc.
+- pymatgen.ext.*: A high-level API access to a new external resource,
+  for example, a new database of crystal structure, molecules and/or
+  properties.
+- pymatgen.io.*: Support for input/output from another code, e.g.,
+  some quantum chemistry software.

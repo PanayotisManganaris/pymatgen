@@ -1,0 +1,28 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Maintainance Organization
+#+date: <2022-06-23 Thu>
+#+author: Panayotis Manganaris
+#+email: panos.manganaris@gmail.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 29.0.50 (Org mode 9.5.4)
+#+cite_export:
+* TODO Extend io.pwscf
+start building fully featured interface to qe
+* TODO install full pmg
+optional dependencies
+- [ ] zeo
+- [ ] vtk with python bindings
+- [ ] openbabel
+- [ ] packmol
+"load"
+- [ ] ase
+- [ ] jarvis tools
+- [ ] phonopy
+* TODO [#5] learn everything (ongoing)
+test all features, fix if needed
